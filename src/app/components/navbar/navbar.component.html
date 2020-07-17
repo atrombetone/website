@@ -1,0 +1,7 @@
+<div class="c-nav-container">
+    <ng-template ngFor let-menu [ngForOf]="menus">
+        <a [routerLink]="[menu.link]" routerLinkActive="linkActive" >
+            {{menu.label}}
+        </a>
+    </ng-template>
+</div>

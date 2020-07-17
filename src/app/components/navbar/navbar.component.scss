@@ -1,0 +1,21 @@
+.c-nav-container {
+    height: 4rem;
+    background: #F2F2F2;
+    flex-direction: row;
+    padding-left: 8rem;
+
+    a {
+        text-decoration: none;
+        color: #000;
+        padding: 2rem 3.6rem;
+        line-height: 3.6rem;
+        border-radius: 3px;
+        transition: 0.8s;
+    }
+
+    a:hover {
+        background-color: rgb(230, 230, 230);
+        -webkit-box-shadow: 1px 3px 12px 5px rgba(0,0,0,0.22); 
+        box-shadow: 1px 3px 12px 5px rgba(0,0,0,0.22);
+    }
+}
